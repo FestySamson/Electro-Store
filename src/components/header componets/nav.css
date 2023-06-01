@@ -1,0 +1,32 @@
+
+.secondary{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;   
+    align-items: center;
+}
+
+.storeNumber p{
+    font-size: 11px;
+    font-family: var(--font-familyone);
+
+}
+.storeNumber{
+    display: flex;
+    gap: 10px;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.tell{
+    display: none;
+}
+.log a{
+    font-family: var(--font-familyone);
+    color: var( --primary--color);
+    font-size: 11px;
+    font-weight: 600;
+}
