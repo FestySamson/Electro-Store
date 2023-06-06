@@ -1,0 +1,108 @@
+.hero{
+    background: var( --primary-background);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 500px;
+}
+.watch{
+    width: 100%;
+}
+.watch img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.save{
+    width: 100%;
+    margin-top: 100px;
+}
+.save p{
+    font-family: var(--font-familyone);
+    margin-top: 5px;
+}
+.per{
+    color: var(--action-color);
+    font-weight: 500;
+}
+.apple{
+    font-weight: 600;
+    font-size: 28px;
+}
+.pack{
+    font-size: 12px;
+}
+.shop{
+    margin-top: 20px;
+}
+.save a{
+    padding: 10px 20px;
+    background: var(--action-color);
+    color: var( --secondary-color);
+    font-size: 14px;
+    font-family: var(--font-familyone);
+    border-radius: 30px;
+}
+
+@media screen and (min-width:768px) {
+    .hero{
+        flex-direction: row;
+        height: 400px;
+        
+    }
+    .save{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .watch{
+        width: 50%;
+    }
+    .watch img{
+        width: 380px;
+        height: 380px;
+    }
+    .per{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .apple{
+        font-size: 35px;
+    }
+    .pack{
+        font-size: 11px;
+    }
+    .shop{
+        margin-top: 30px;
+    }
+}
+
+@media screen and  (min-width:1100px) {
+
+    .hero{
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+    }
+    .apple{
+        font-size: 50px;
+        font-weight: 800;
+    }
+    .save{
+        width: 40%;
+    }
+    .watch{
+        width: 45%;
+        height: 90%;
+        margin-top: -20px;
+    }
+    .watch img{
+        width: 550px;
+        height: 550px;
+        object-fit: cover;
+    }
+}

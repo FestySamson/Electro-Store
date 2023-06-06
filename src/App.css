@@ -43,7 +43,8 @@ body{
     --font-familyone:'Poppins', sans-serif;
     --action-color: #D30000;
     --primary--color:#000000;
-    --primary-background:#D4D4D4;
+    --primary-background:#ececec;
+    --secondary-color:#ffffff;
 }
 
 .he{

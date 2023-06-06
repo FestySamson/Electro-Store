@@ -1,0 +1,130 @@
+.trend{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+}
+.trend p{
+    font-family: var(--font-familyone);
+    font-weight: 600;
+    text-align: center  ;
+}
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+}
+.cateDiv{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    color: var(--primary--color);
+    border-radius: 10px;
+    background: var( --secondary-color);
+    transition: transform 0.3s ease-in-out;
+}
+.cateDiv:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.cateDiv img{
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.boxes{
+    width: 100%;
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.box1{
+    background: var( --primary-background);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.box1 p{
+    font-size: 13px;
+    font-weight: 100;
+}
+.box1 h4{
+    font-family: var(--font-familyone);
+    font-weight: 500;
+    font-size: 14px;
+}
+.shop2{
+    margin-top: 10px;
+    z-index: 1;
+    
+}
+.shop2 a{
+    background: var(--action-color);
+    padding: 7px 12px;
+    color: var(--secondary-color);
+    font-family: var(--font-familyone);
+    font-weight: bold;
+    border-radius: 20px;
+}
+.cam img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (min-width:768px) {
+    .trend{
+       
+    }
+    .categories{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+    .cateDiv{
+        width: 100%;
+    }
+    .trend p{
+        font-size: 25px;
+    }
+    .box1{
+        width: 45%;
+    }
+}
+@media screen and (min-width:1100px) {
+    .trend p{
+        text-align: left;
+        margin-left: 40px;
+    }
+    .cateDiv{
+        width: auto;
+    }
+    .box1{
+        width: 35%;
+    }
+    .cateDiv p{
+        font-weight: normal;
+        font-size: 17px;
+    }
+}
