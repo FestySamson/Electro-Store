@@ -1,6 +1,6 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom';
-import Latest from './latest';
+import Latest from './Latest';
 
 function Latestprop() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom';
-import Trending from './trending';
+import Trending from './Trending';
 import './trending.css'
 
 
