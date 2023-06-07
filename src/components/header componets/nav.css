@@ -10,7 +10,7 @@
 .storeNumber p{
     font-size: 11px;
     font-family: var(--font-familyone);
-
+    margin-right: 10px;
 }
 .storeNumber{
     display: flex;

@@ -25,6 +25,7 @@
 .save p{
     font-family: var(--font-familyone);
     margin-top: 5px;
+    font-weight: 600;
 }
 .per{
     color: var(--action-color);

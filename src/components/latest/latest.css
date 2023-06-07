@@ -105,12 +105,13 @@
     justify-content: center;
     gap: 10px;
     text-align: center;
-    margin-top: 7px;
+    margin-top: 5px;
 }
 .price span{
     color: var(--action-color);
     font-weight: bold;
     text-align: center;
+    margin-right: 20px;
 }
 .cart{
     margin-bottom: 10px;
