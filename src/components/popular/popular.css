@@ -1,0 +1,31 @@
+.popular{
+    margin-top: 40px;
+    padding: 20px;
+}
+.pp h3{
+    font-family: var(--font-familyone);
+}
+.filters button{
+    display: block;
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: var(--primary--color);
+    font-family: var(--font-familyone);
+    font-weight: bold;
+    outline: none;
+}
+@media screen and (min-width:768px) {
+    #popp{
+        gap: 40px;
+    }
+    .pp{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 60px;
+    }
+    .filters button{
+        display: inline-flex;
+        margin-right: 20px;
+    }
+}

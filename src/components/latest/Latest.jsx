@@ -16,10 +16,7 @@ function Latest(props) {
               <RatingStars/>
               <p className='name'>{props.proName}</p>
               <p className='price'><span>{props.sale}</span><del>{props.regular}</del></p>
-              <div className="cart">
-                <button className='plus'>+</button>
-                <button className='minus'>-</button>
-              </div>
+              
           </div>
       </div>
     </div>

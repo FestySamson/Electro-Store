@@ -11,7 +11,7 @@ function Hurry() {
       </div>
       <div className="hurrytext">
           <div className="hurrylink">
-              <a href="#">Hurry!</a>
+              <a href="#">Hurry Up!</a>
           </div>
           <p className='up'>Up to 25% Discount <br />Check it Out</p>
           <Counter/>
