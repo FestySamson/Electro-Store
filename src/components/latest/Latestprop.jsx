@@ -109,17 +109,6 @@ function Latestprop() {
                />
             </NavLink>
         </div>
-        <div>
-            <NavLink to='/'>
-               <Latest
-                    productImg= 'Images/Alienware x15 R2 Gaming Laptop _ Dell USA.png'
-                    proName= "Alienware x15 R2 Gaming Laptop _ Dell USA"
-                    sale= '$3000'
-                    regular= '$3500'
-                    percentage='20% off'
-               />
-            </NavLink>
-        </div>
     </div>
     </div>
   )

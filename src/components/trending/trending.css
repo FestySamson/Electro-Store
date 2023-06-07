@@ -5,6 +5,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     height: auto;
+    margin-top: 40px;
 }
 .trend p{
     font-family: var(--font-familyone);
@@ -21,11 +22,12 @@
     
 }
 .cateDiv{
-    width: 90%;
+    width: 80%;
     height: auto;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin-top: 20px;
     text-align: center;
@@ -36,14 +38,22 @@
     transition:  0.3s all ease-in-out;
     margin-top: 30px;
 }
+.cateDiv p{
+    margin-top: 12px;
+}
 .cateDiv:hover{
     transform: translateY(-20px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+.cateimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .cateDiv img{
     width: 70%;
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .boxes{

@@ -4,7 +4,7 @@ import './hero.css'
 function Hero() {
   return (
     <div className='hero'>
-      <div className="save">~
+      <div className="save">
           <p className='per'>Sale up to 30% off </p>
           <p className='apple'>Apple Watch Series</p>
           <p className='pack'>feature packed at a better value than powerful sensors <br /> to monitor your fitness</p>
