@@ -1,6 +1,6 @@
 .trend{
     width: 100%;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -18,9 +18,10 @@
     width: 100%;
     flex-wrap: wrap;
     height: auto;
+    
 }
 .cateDiv{
-    width: 85%;
+    width: 90%;
     height: auto;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
     display: flex;
@@ -33,7 +34,7 @@
     border-radius: 10px;
     background: var( --secondary-color);
     transition: transform 0.3s ease-in-out;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .cateDiv:hover{
     transform: translateY(-20px);
@@ -57,7 +58,7 @@
 }
 .box1{
     background: var( --primary-background);
-    width: 100%;
+    width: 90%;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -96,9 +97,6 @@
 }
 
 @media screen and (min-width:768px) {
-    .trend{
-       
-    }
     .categories{
         flex-direction: row;
         flex-wrap: wrap;

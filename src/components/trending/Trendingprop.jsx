@@ -11,7 +11,7 @@ function Trendingprop() {
           <p> Trending categories</p>
           <div className='categories'>
             <div>
-            <NavLink exact to=''>
+            <NavLink exact to='/'>
                         <Trending
                             ProductImg='Images/iphone13.png'
                             categoryName= "iphone"
@@ -20,7 +20,7 @@ function Trendingprop() {
                 </div>
 
                 <div>
-                    <NavLink exact to=''>
+                    <NavLink exact to='/'>
                         <Trending
                             ProductImg='Images/ipad1.png'
                             categoryName= "Tablets"
@@ -29,7 +29,7 @@ function Trendingprop() {
                 </div>
 
                 <div>
-                <NavLink exact to=''>
+                <NavLink exact to='/'>
                     <Trending
                         ProductImg='Images/jbl2.png'
                         categoryName= "Headphones"
@@ -38,7 +38,7 @@ function Trendingprop() {
                 </div>
 
                 <div>
-                    <NavLink exact to=''>
+                    <NavLink exact to='/'>
                         <Trending
                             ProductImg='Images/Samsung_Galaxy_Watch_4.png'
                             categoryName= "Galaxy watch"
@@ -47,7 +47,7 @@ function Trendingprop() {
                 </div>
 
             <div>
-                <NavLink exact to=''>
+                <NavLink exact to='/'>
                         <Trending
                             ProductImg='Images/series b black.png'
                             categoryName= "Apple watch"
@@ -57,7 +57,7 @@ function Trendingprop() {
             </div>
 
                 <div>
-                    <NavLink exact to=''>
+                    <NavLink exact to='/'>
                         <Trending
                             ProductImg='Images/pro2.png'
                             categoryName= "Airpods"
@@ -67,7 +67,7 @@ function Trendingprop() {
                 </div>
                 
                 <div>
-                <NavLink exact to=''>
+                <NavLink exact to='/'>
                     <Trending
                         ProductImg='Images/Alienware x14 Gaming Laptop.png'
                         categoryName= "Laptops"
@@ -76,7 +76,7 @@ function Trendingprop() {
                 </div>
 
                 <div>
-                <NavLink exact to=''>
+                <NavLink exact to='/'>
                     <Trending
                         ProductImg='Images/s23.png'
                         categoryName= "Andriods"
@@ -84,7 +84,7 @@ function Trendingprop() {
                 </NavLink>
                 </div>
                 <div>
-                <NavLink exact to=''>
+                <NavLink exact to='/'>
                     <Trending
                         ProductImg='Images/xsmas black.png'
                         categoryName= "Accessories"
@@ -93,7 +93,7 @@ function Trendingprop() {
                 </div>
 
                 <div>
-                <NavLink exact to=''>
+                <NavLink exact to='/'>
                     <Trending
                         ProductImg='Images/gamepad2.png'
                         categoryName= "Game Pads"

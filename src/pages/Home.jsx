@@ -1,13 +1,13 @@
 import React from 'react'
 import Hero from '../components/hero/Hero'
 import Trendingprop from '../components/trending/Trendingprop'
-import Latest from '../components/latest/Latest'
+import Latestprop from '../components/latest/Latestprop'
 function Home() {
   return (
     <div>
       <Hero/>
       <Trendingprop/>
-      <Latest/>
+      <Latestprop/>
     </div>
   )
 }
