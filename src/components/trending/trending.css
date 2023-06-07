@@ -33,7 +33,7 @@
     color: var(--primary--color);
     border-radius: 10px;
     background: var( --secondary-color);
-    transition: transform 0.3s ease-in-out;
+    transition:  0.3s all ease-in-out;
     margin-top: 30px;
 }
 .cateDiv:hover{
@@ -41,14 +41,13 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 .cateDiv img{
-    width: 90%;
+    width: 70%;
     height: 200px;
     object-fit: cover;
 }
 
 .boxes{
     width: 100%;
-    
     justify-content: center;
     display: flex;
     align-items: center;
