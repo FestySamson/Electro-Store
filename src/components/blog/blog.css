@@ -27,7 +27,8 @@
     margin-bottom: 10px;
 }
 .blogh2 a{
-    padding: 5px 15px;
+    padding: 5px;
+    width: 130px;
     background: var(--primary-background);
     color: #000;
     border-radius: 10px;

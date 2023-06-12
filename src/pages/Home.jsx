@@ -5,6 +5,8 @@ import Latestprop from '../components/latest/Latestprop'
 import Hurry from '../components/hurry/Hurry'
 import Popular from '../components/popular/Popular'
 import BlogList from '../components/blog/BlogList'
+import Discount from '../components/discount/Discount'
+import Trust from '../components/Trust/Trust'
 
 function Home() {
   return (
@@ -15,6 +17,8 @@ function Home() {
       <Hurry/>
       <Popular/>
       <BlogList/>
+      <Discount/>
+      <Trust/>
     </div>
   )
 }

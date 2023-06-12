@@ -45,8 +45,5 @@ body{
     --primary--color:#000000;
     --primary-background:#ececec;
     --secondary-color:#ffffff;
-}
-
-.he{
-  font-family: var(--font-familyone);
+    --box-shadow:0 2px 6px rgba(0, 0, 0, 0.15);
 }
