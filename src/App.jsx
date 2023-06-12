@@ -5,6 +5,7 @@ import Nav from './components/header componets/Nav'
 import Contact from './pages/Contact'
 import Popular from './components/popular/Popular'
 import SingleProduct from './pages/SingleProduct'
+import SingleBlog from './components/blog/SingleBlog'
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
           <Route  path='/contact' Component={Contact}></Route>
           <Route exact path="/" component={Popular} />
           <Route path="/product/:id" component={SingleProduct} />
-
+          <Route path="/blog/:id" component={SingleBlog} />
         </Routes>
       </Router>
     </>  

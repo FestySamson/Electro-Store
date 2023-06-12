@@ -39,14 +39,13 @@
 }
 .my-products{
     display: flex;
-    flex-wrap: wrap;
+    overflow: scroll;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
     padding: 20px;
     margin-top: 20px;
-    
 }
 .pro{
     min-width: 230px;
@@ -150,6 +149,10 @@
     }
     .latt h2{
         font-size: 25px;
+    }
+    .my-products{
+        overflow: initial !important;
+        flex-wrap: wrap;
     }
 }
 @media screen and (min-width:1100px){
